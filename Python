@@ -203,5 +203,44 @@ print(area,perimeter)
 
 
 
+#17. write a program to input principal , rate and time calculate simple interset and total amount
+
+principal = int(input('Enter the principal amount'))
+rate = int(input('Enter the rate'))
+time = int(input('Enter the time'))
+simple_interset = (principal*rate*time) / 100
+total_amount = principal + simple_interset
+print(simple_interset , total_amount)
+
+
+
+#18. write a program to input a temperature in celcius and convert it to fahrenheit using F=(9/5)*C+32.
+
+temperature = int(input('Enter the temp. celsius'))
+fahrenheit = (9/5)*temperature+32
+print(fahrenheit)
+
+
+
+#19. write a python program to input the price of an item and quantity purchased then calculate the total bill . Also calculate a 10% discount and the final amount after discount.
+
+price = int(input('Enter the price'))
+quantity = int(input('Enter the quantity purchased'))
+total_amount = price*quantity
+discount = (total_amount*10) / 100
+after_discount = total_amount - discount
+print(after_discount)
+
+
+
+#20. write a python program that input age and marks and display the boolean results of : (a) age is at least 18 , (b) marks are at least 40 , and (c) both condition are satisfied do not use if
+
+age = int(input('Enter age'))
+marks = int(input('Enter marks'))
+print(age>=18)
+print(marks>=40)
+print(age>=18 and marks>=40)
+
+
 
 
