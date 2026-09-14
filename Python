@@ -374,6 +374,7 @@ for i in range(1,50,3):
 
 
 #35. Check whether a number is divisble by 5
+
 num = int(input('Enter the number : '))
 if num % 5 == 0:
     print(f'{num} is divisble by 5')
@@ -382,9 +383,35 @@ else:
 
 
 #36. Print child/adult using a condition
+
 age = int(input('Enter the age : '))
 print('adult' if age >=18 else 'child')
 
+
+#37. print pass when marks >= 40 otherwise fail
+
+marks = int(input('Enter the marks : '))
+if marks >=40:
+    print('Pass')
+elif marks < 0:
+    print('Invalid marks')
+else:
+    print('Fail')
+
+
+# 38. Accept numbers until zero and print their sum
+
+sum = 0
+
+while True:
+    num = int(input('Enter a number: '))
+
+    if num == 0:
+        break
+    else:
+        sum += num
+
+print('Sum =', sum)
 
 
 
