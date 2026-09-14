@@ -414,5 +414,39 @@ while True:
 print('Sum =', sum)
 
 
+#39. Ask for a password until correct
+
+num = input('Enter the password:')
+while True:
+    if num == 'sam123':
+        print('Correct password!')
+        break
+    else:
+        print('Wrong password!')
+
+
+#40. accept numbers until 0 and print their sum
+
+sum=0
+n=int(input('Enter the number'))
+while n>1 and n != 0 :
+  sum=sum+n
+  n=int(input('Enter the number'))
+print(sum)
+
+
+#41. print a discount message for a qualifying amount
+
+amount=float(input("amount:"))
+if amount>= 50000 :
+  print("10% discount ")
+else :
+  print(" no discount ")
+
+
+
+
+
+
 
 
