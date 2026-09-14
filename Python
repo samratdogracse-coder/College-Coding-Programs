@@ -373,5 +373,19 @@ for i in range(1,50,3):
     print(i)
 
 
+#35. Check whether a number is divisble by 5
+num = int(input('Enter the number : '))
+if num % 5 == 0:
+    print(f'{num} is divisble by 5')
+else:
+    print(f'{num} is not divisble by 5')
+
+
+#36. Print child/adult using a condition
+age = int(input('Enter the age : '))
+print('adult' if age >=18 else 'child')
+
+
+
 
 
