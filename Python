@@ -1,1 +1,207 @@
-..
+
+#1. to determine largest number between three
+num1 = int(input('Enter the first number'))
+num2 = int(input('Enter the second number'))
+num3 = int(input('Enter the third number'))
+
+if num1 > num2 and num1 > num3:
+    print(f'{num1} is greater')
+
+elif num2 > num1 and num2 > num3:
+    print(f'{num2} is greater')
+
+else:
+    print(f'{num3} is greater')
+
+
+#2. to dertermine even and odd number
+num1 = int(input('Enter the number'))
+if num1 % 2 == 0:
+    print(f'num1 is even')
+
+else:
+    print(f'num1 is odd')
+
+
+#3. sum of two numbers
+num1 = int(input('Enter the first number'))
+num2 = int(input('Enter the second number'))
+sum = num1+num2
+print(sum)
+
+
+#4. to determine largest between four numbers
+num1 = int(input('Enter the first number : '))
+num2 = int(input('Enter the second number : '))
+num3 = int(input('Enter the third number : '))
+num4 = int(input('Enter the fourth number : '))
+
+if num1 > num2 and num1 > num3:
+    if num1 > num4:
+        print(f'{num1} is greater')
+    else:
+        print(f'{num4} is greater')
+
+elif num2 > num1 and num2 > num3:
+    if num2 > num4:
+        print(f'{num2} is greater')
+    else:
+        print(f'{num4} is greater')
+
+elif num3 > num1 and num3 > num2:
+    if num3 > num4:
+        print(f'{num3} is greater')
+    else:
+        print(f'{num4} is greater')
+
+
+#5. swapping three numbers
+a = int(input('Enter the first number: '))
+b = int(input('Enter the second number: '))
+c = int(input('Enter the third number: '))
+
+temp1 = a
+temp2 = b
+a = c
+b = temp1
+c = temp2
+
+print(a,b,c)
+
+
+
+#6. swapping four numbers
+a = int(input('Enter the first number: '))
+b = int(input('Enter the second number: '))
+c = int(input('Enter the third number: '))
+d = int(input('Enter the fourth number: '))
+
+a,b,c,d = d,b,a,c
+
+print(a,b,c,d)
+
+
+
+#7. operators
+num1 = int(input('Enter the first number:'))
+num2 = int(input('Enter the second number: '))
+sum = num1 + num2
+difference = num1 - num2
+product = num1*num2
+remainder = num1 % num2
+quotient = num1 / num2
+floor_quotient = num1 // num2
+
+print(sum,difference,product,remainder,quotient,floor_quotient)
+
+
+
+#8. grade system
+marks = float(input('Enter the marks'))
+
+if marks >= 90 and marks <=100:
+    print('Grade A')
+
+elif marks > 75 and marks < 89:
+    print('Grade B')
+
+elif marks > 60 and marks < 74:
+    print('Grade C')
+
+elif marks > 40 and marks < 59:
+    print('Grade D')
+
+elif marks <=  39 and marks >=0:
+    print('Grade F')
+
+else:
+    print('Please Enter a valid number')
+
+
+
+#9. store your roll number in a varibale and print it along with the text 'roll numbers'
+
+roll_no = int(input('Enter the roll number'))
+print(f'Roll Number : {roll_no}')
+
+
+
+#10. store two number in variable and print their product
+num1 = int(input('Enter the first number'))
+num2 = int(input('Enter the second number'))
+
+product = num1*num2
+
+print(product)
+
+
+
+#11. store a decimal number (such as height in meters) in variable and print it
+height = float(input('Enter the height in meters'))
+print(f'{height} m')
+
+
+
+
+
+#12. swapping four numbers
+a = int(input('Enter the first number: '))
+b = int(input('Enter the second number: '))
+c = int(input('Enter the third number: '))
+d = int(input('Enter the fourth number: '))
+
+temp1 = a
+temp2 = b
+temp3 = c
+
+a = d
+b = temp1
+c = temp2
+d = temp1
+
+print(a,b,c,d)
+
+
+
+#13. store three subjects name in three variables and print all three in one print() statement
+sub1 = 'Maths'
+sub2 = 'English'
+sub3 = 'Programming'
+
+print(sub1,sub2,sub3)
+
+
+
+#14. Store a boolean value showing whether you like Python
+person_review = input("Do you like Python? (True/False): ")
+
+if person_review == "True":
+    print("likes_python")
+else:
+    print("dont_like_python")
+
+
+
+#15. write a python program to input a students name , age and marks and display all three values with suitable tables
+
+name = input('Enter the Name: ')
+age = int(input('Enter the age: '))
+marks = int(input('Enter the marks: '))
+print(f'Student Name: {name} , Student Age: {age} , Student Marks: {marks}')
+
+
+
+#16. write a python program to input the length and breadth of a rectangle and calculate its area and perimeter
+
+length = int(input('Enter the length'))
+breadth = int(input('Enter the breadth'))
+
+area = length*breadth
+perimeter = 2*(length+breadth)
+
+print(area,perimeter)
+
+
+
+
+
