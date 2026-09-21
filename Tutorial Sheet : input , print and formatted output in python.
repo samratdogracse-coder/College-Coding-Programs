@@ -1,0 +1,52 @@
+LEVEL 1 - VERY BASIC: USING print()
+
+#1. Write a program to display the message : Hello,Python!
+
+print('Hello,Python!')
+
+
+#2. Write a program to print your name,roll number,course,semester and collegename on five seperate lines.
+
+name = 'samrat'
+roll_number = 66
+course = 'btech-cse'
+semester = 'Ist'
+college_name = 'MIET'
+print(f'Name : {name}')
+print(f'Roll number : {roll_number}')
+print(f'Course : {course}')
+print(f'Semester : {semester}')
+print(f'College Name : {college_name}')
+
+
+#3. Write a program to display the following three lines using threee print() statements: Welcome to Python/semester1/cse department
+
+print('Welcome to Python')
+print('Semester 1')
+print('CSE Department')
+
+
+#4. Store your name in a variable and print the value of the variable.
+
+name = 'samrat dogra'
+print(f'My Name is : {name}')
+
+
+#5. Create three variables a = 10 , b = 20 and c = 30 . Display all three values using a single print() statement.
+
+a = 10
+b = 20
+c = 30
+print( a , b , c )
+
+
+#6. Create variables subject = 'python' and semester = 1 . Print both values with suitable labels using print()
+
+subject = 'Python'
+semester = 1
+print(f'Subject = {subject}')
+print(f'Semester = {semester}')
+
+
+LEVEL 2 - BASIC INPUT : USING input()
+
