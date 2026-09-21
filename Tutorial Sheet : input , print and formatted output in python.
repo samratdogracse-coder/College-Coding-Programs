@@ -98,3 +98,56 @@ print(total_amount)
 
 
 LEVEL 3 - f-STRINGS
+
+
+#13. Take name and age as input and display: My name is <name> and i am <age> years old. Use an f-string.
+
+name = input('Enter the name : ')
+age = int(input('Enter the age : '))
+print(f'My name is <{name}> and I am <{age}> years old.')
+
+
+#14. Take two numbers as input and display the complete addittion statement in the form : 12+8=20. Use an f-string.
+
+num1 = int(input('Enter the first number : '))
+num2 = int(input('Enter the second number : '))
+sum = num1 + num2
+print(f'{num1}+{num2}={sum}')
+
+
+#15. Take two numbers a and b as input . Display their sum , difference , product and quotient using seperate f-string statements.
+
+a = int(input('Enter the first number : '))
+b = int(input('Enter the second number : '))
+sum = a+b
+difference = a-b
+product = a*b
+quotient = a/b
+print(f'Sum : {sum}')
+print(f'Difference : {difference}')
+print(f'Product : {product}')
+print(f'Quotient : {quotient}')
+
+
+#16. Take length and breadth as input, calculate the area of rectangle , and display : area of rectangle = <area> . Use an f-string
+
+length = int(input('Enter the length : '))
+breadth = int(input('Enter the breadth : '))
+area = length*breadth
+print(f'Area pf Rectangle = {area}')
+
+
+#17. Take a students name and marks in three subjects. Calculate the total and average , and display the students name , total and average using f-strings.
+
+student_name = input('Enter the student name : ') 
+maths_marks = int(input('Enter the maths marks : '))
+english_marks = int(input('Enter the english marks : '))
+design_marks = int(input('Enter the design marks : '))
+total = maths_marks + english_marks + design_marks 
+average = total / 3
+print(f'Student Name : {student_name}')
+print(f'Total : {total}')
+print(f'Average : {average}')
+
+
+
