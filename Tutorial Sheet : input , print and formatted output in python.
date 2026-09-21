@@ -150,4 +150,33 @@ print(f'Total : {total}')
 print(f'Average : {average}')
 
 
+#18. Take item name , unit price and quantity as input . Display a small bill showing item , price , quantity and total using f-strings.
+
+item_name = input('Enter the item name : ')
+price = int(input('Enter the price : '))
+quantity = int(input('Enter the quantity : '))
+
+print(f'Item name : {item_name}')
+print(f'Price : {price}')
+print(f'Quantity : {quantity}')
+
+
+#19. Take a current age of a student as input and display the age next year directly as an expression inside an f-string.
+
+age = int(input('Enter the current age : '))
+age1 = age + 1
+print(f'Age Next year : {age1}')
+
+
+#20. Take a radius as input , calculate the area of a circle using 3.14159 * radius * radius , and display the result using an f-string.
+
+radius = int(input('Enter the radius of the circle : '))
+area_of_circle = 3.14159 * radius * radius 
+print(f'Area of circle : {area_of_circle}')
+
+
+LEVEL 4 - .format() and % FORMATTING
+
+
+
 
