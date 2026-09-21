@@ -50,3 +50,51 @@ print(f'Semester = {semester}')
 
 LEVEL 2 - BASIC INPUT : USING input()
 
+#7. Take the students name as input and display : Welcome,<name>
+
+student_name = input('Enter the student name : ')
+print(f'Welcome, <{student_name}>!')
+
+
+#8. Take name , roll number and section as input and display all details clearly.
+
+name = input('Enter the name : ')
+roll_number = int(input('Enter roll number : '))
+section = input('Enter the section : ')
+print(f'Name : {name}')
+print(f'Roll number : {roll_number}')
+print(f'Section : {section}')
+
+
+#9. Take two integer values from the user and display their sum.
+
+num1 = int(input('Enter the first number : '))
+num2 = int(input('Enter the second number : '))
+sum = num1 + num2
+print(sum)
+
+
+#10. Take length and breadth of a rectangle as input and display their sum.
+
+length = int(input('Enter the length : '))
+breadth = int(input('Enter the breadth : '))
+area = length * breadth
+print(f'Area : {area}')
+
+
+#11. Take a floating - point number as input and display the number back to the user with suitable message.
+
+bill_amount = float(input('Enter the bill : '))
+print(f'Total bill = {bill_smount}')
+
+
+#12. Take item name , price and quantity as input . Calculate and dispklay the total amount (price * quantity).
+
+item_name = input('Enter the item name : ')
+price = int(input('Enter the price : '))
+quantity = int(input('Enter the quantity : '))
+total_amount = price * quantity
+print(total_amount)
+
+
+LEVEL 3 - f-STRINGS
