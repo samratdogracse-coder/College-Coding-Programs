@@ -190,6 +190,15 @@ age = int(input('Enter the age : '))
 print('Name = {} , Age = {}'.format(name,age))
 
 
+#23. Take name and age as input. Use postional placeholders so that the age is displayed before name
+
+name = input('Enter the name : ')
+age = int(input('Enter the age : '))
+print('Age = {},Name = {}' .format(age,name))
+
+
+
+
 
 
 
