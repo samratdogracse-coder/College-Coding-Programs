@@ -205,6 +205,14 @@ product = num1 * num2
 print('{} X {} = {}'.format(num1,num2,product))
 
 
+#25. Take a students name and roll number as input . Use % and % formatting to display both values in one snetence.
+
+student_name = input('Enter the student name : ')
+roll_number = int(input('Enter the roll number : '))
+print('Student name : {} , Roll number : {}'.format(student_name,roll_number))
+
+
+
 
 
 
