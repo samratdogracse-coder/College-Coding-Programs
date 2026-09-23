@@ -197,6 +197,16 @@ age = int(input('Enter the age : '))
 print('Age = {},Name = {}' .format(age,name))
 
 
+#24. Take two integers as input and display their product in the form : 6X7 = 42 using .format()
+
+num1 = int(input('Enter the first number : '))
+num2 = int(input('Enter the second number : '))
+product = num1 * num2 
+print('{} X {} = {}'.format(num1,num2,product))
+
+
+
+
 
 
 
