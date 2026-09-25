@@ -1,0 +1,204 @@
+PYTHON TUTORIAL 1 – QUESTIONS
+
+SECTION A – MULTIPLE CHOICE QUESTIONS (1–15)
+
+#1. Which function is used to display output in Python?
+A) input()
+B) print()
+C) output()
+D) display()
+
+#2. Which of the following is a valid Python variable name?
+A) 2marks
+B) student-name
+C) student_name
+D) class
+
+#3. What is the data type of 25?
+A) float
+B) int
+C) str
+D) bool
+
+#4. What is the data type of 25.0?
+A) int
+B) float
+C) str
+D) bool
+
+#5. What is the data type of "25"?
+A) int
+B) float
+C) str
+D) bool
+
+#6. What does input() normally return?
+A) int
+B) float
+C) string
+D) boolean
+
+#7. Which function converts a value to an integer?
+A) str()
+B) float()
+C) int()
+D) bool()
+
+#8. Which operator is used for exponentiation in Python?
+A) ^
+B) **
+C) //
+D) %
+
+#9. What is the result of 17 // 5?
+A) 3.4
+B) 3
+C) 2
+D) 4
+
+#10. What is the result of 17 % 5?
+A) 2
+B) 3
+C) 0
+D) 5
+
+#11. Which operator checks equality?
+A) =
+B) ==
+C) !=
+D) ===
+
+#12. Which logical operator returns True only when both conditions are True?
+A) or
+B) not
+C) and
+D) &&
+
+#13. Which operator has higher precedence?
+A) +
+B) *
+C) =
+D) or
+
+#14. What is the result of 10 + 5 * 2?
+A) 30
+B) 20
+C) 25
+D) 15
+
+#15. Which operator performs floor division?
+A) /
+B) %
+C) //
+D) **
+
+
+SECTION B – FILL IN THE BLANKS (16–25)
+
+#16. A variable is used to __________ a value in a program.
+
+#17. The Python data type used for text is called __________.
+
+#18. The data type used to store True or False values is __________.
+
+#19. The function used to accept input from the keyboard is __________.
+
+#20. The function used to convert a value into a floating-point number is __________.
+
+#21. The operator used to find the remainder is __________.
+
+#22. The operator used for floor division is __________.
+
+#23. The logical operator used to reverse a Boolean value is __________.
+
+#24. In the expression 10 + 2 * 5, the __________ operation is performed first.
+
+#25. The operator = is called the __________ operator.
+
+
+SECTION C – TRUE OR FALSE (26–35)
+
+#26. Python variables must be declared with a separate data type before assigning a value. __________
+
+#27. x = 10 stores an integer value in x. __________
+
+#28. input() returns a string by default. __________
+
+#29. int("50") converts the string "50" into an integer. __________
+
+#30. The expression 10 / 2 produces a floating-point result in Python. __________
+
+#31. The % operator returns the quotient of a division. __________
+
+#32. The and operator is a logical operator. __________
+
+#33. Parentheses can be used to change the normal order of evaluation. __________
+
+#34. 5 == 5 evaluates to False. __________
+
+#35. 10 + 2 * 3 and (10 + 2) * 3 always produce the same result. __________
+
+
+SECTION D – PREDICT THE OUTPUT / EVALUATE (36–40)
+
+#36. Predict the output:
+
+x = 10
+y = 3
+print(x + y)
+print(x * y)
+
+#37. Predict the output:
+
+a = "10"
+b = "20"
+print(a + b)
+
+#38. Predict the output:
+
+x = 20
+x += 5
+x *= 2
+print(x)
+
+#39. Evaluate: 20 - 4 * 3 + 2.
+Show the order of operations.
+
+#40. Evaluate: 5 + 3 * 2 ** 2.
+Show the order of operations.
+
+
+SECTION E – PROGRAMMING PROBLEMS (41–50)
+
+#41. Write a Python program to input a student's name, age, and marks, and display all three values with suitable labels.
+
+#42. Write a Python program to input two integers and display their sum, difference, product, quotient, floor quotient, and remainder.
+
+#43. Write a Python program to input the length and breadth of a rectangle and calculate its area and perimeter.
+
+#44. Write a Python program to input the radius of a circle and calculate its area and circumference. Use pi = 3.14.
+
+#45. Write a Python program to input marks of three subjects and calculate the total marks and average marks.
+
+#46. Write a Python program to input a temperature in Celsius and convert it to Fahrenheit using the formula:
+
+F = (9/5) * C + 32
+
+#47. Write a Python program to input principal, rate, and time and calculate Simple Interest and total amount.
+
+#48. Write a Python program to input a two-digit number and display its tens digit and units digit using // and %.
+
+#49. Write a Python program to input the price of an item and quantity purchased, then calculate the total bill. Also calculate a 10% discount and the final amount after discount.
+
+#50. Write a Python program that inputs age and marks and displays the Boolean results of:
+
+(a) Age is at least 18.
+(b) Marks are at least 40.
+(c) Both conditions are satisfied.
+
+Do not use if.
+
+
+END OF TUTORIAL 1
+
+Topics: Variables, Data Types, Input/Output, Type Conversion, Operators, Precedence.
