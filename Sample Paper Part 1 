@@ -1,0 +1,174 @@
+                      MCQs
+
+1. Python is an example of:
+A) Compiled language
+B) Machine language
+C) Assembly language
+D) Interpreted language
+
+2. Which character is used to give single-line comments in Python?
+A) //
+B) #
+C) !
+D) /*
+
+3. Which operator is used for exponentiation?
+A) ^
+B) exp
+C) **
+D) ^^
+
+4. What does 10 % 3 return?
+A) 0
+B) 1
+C) 3
+D) 10
+
+5. Which of the following statements is used to create an empty set in Python?
+A) ( )
+B) []
+C) {}
+D) set()
+
+6. What is the output of "Hello"[2]?
+A) H
+B) e
+C) l
+D) o
+
+7. What is the correct syntax of an if statement?
+A) if condition:
+B) if condition
+C) if(condition)
+D) if condition then
+
+8. What does the continue statement do in Python?
+A) Terminates the loop
+B) Skips the current iteration and continues to the next one
+C) Ends the program
+D) Skips the loop entirely
+
+9. Dictionaries store data as:
+A) Key-value pairs
+B) Index-value
+C) Numbers only
+D) Strings only
+
+10. Which is the correct way to import a module in Python?
+A) import module_name
+B) include module_name
+C) use module_name
+D) import (module_name)
+
+11. Which function can be used to return the length of a string in Python?
+A) length()
+B) len()
+C) size()
+D) lengthof()
+
+12. Which function is used to open a file?
+A) open()
+B) file()
+C) read()
+D) start()
+
+13. How do you add an element to a Python list?
+A) list.add()
+B) list.insert()
+C) list.append()
+D) list.push()
+
+14. Which data structure would you use to store unique items in an unordered collection?
+A) List
+B) Dictionary
+C) Set
+D) Tuple
+
+15. Which error is caused by incorrect syntax?
+A) Logical Error
+B) Syntax Error
+C) Runtime Error
+D) Compile Error
+
+16. What does the string method .join() do in Python?
+A) Splits a string into a list
+B) Concatenates a list of strings into one string
+C) Reverses a string
+D) Returns the index of a substring
+
+17. Which of the following is a valid way to create a dictionary in Python?
+A) {key1: value1, key2: value2}
+B) dict(key1=value1, key2=value2)
+C) dict([key1, value1], [key2, value2])
+D) Both A and B
+
+18. Which mode is used to read a file?
+A) r
+B) w
+C) a
+D) x
+
+19. Which of the following is not a valid data type in Python?
+A) int
+B) float
+C) char
+D) str
+
+20. What does the strip() method do in Python?
+A) Removes all leading and trailing spaces from a string
+B) Splits a string into a list of substrings
+C) Joins multiple strings into one
+D) Replaces occurrences of a substring
+
+                 Debugging
+
+1. What is the error in the following code?
+
+if x = 10:
+    print("Equal")
+
+2. What is the output of the following code?
+x = 0
+while x < 3:
+    print(x)
+    x += 1
+
+3. What is the output of the following code?
+def show(x):
+
+    if x > 10:
+        print("A", end=" ")
+    elif x > 5:
+        print("B", end=" ")
+    else:
+        print("C", end=" ")
+
+show(3)
+show(7)
+show(15)
+
+4. What is the output of the following code?
+
+for i in range(3):
+    print(i, end='')
+else:
+    print("Done")
+
+5. What is the output of the following code?
+a = [11, 22, 33, 44, 55]
+sum = 0
+for ele in a:
+    sum += ele
+print(sum)
+
+                   Easy Coding
+
+1. Write a Python program to print numbers from 1 to n.
+
+2. Write a Python program to calculate the factorial of a given number using a loop.
+
+              Hard / Complex Coding
+
+1. Write a Python program to generate the Fibonacci series up to n terms.
+
+2. Write a Python program to count the number of vowels in a string.
