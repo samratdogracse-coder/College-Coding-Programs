@@ -1,0 +1,74 @@
+                      MCQS
+
+1. D) Interpreted language
+2. B) # 
+3. C) **
+4. B) 1 
+5. D) set()
+6. C) l
+7. A) if condition:
+8. B) skips the current iteration and continues to the next one 
+9. A) key - value pairs
+10. A) import module_name
+11. B) len()
+12. A) open()
+13. C) list.append()
+14. C) set
+15. B) syntax error
+16. B) concatenates a list of strings in one string
+17. D) both a and b 
+18. A) r
+19. C) char
+20. A) removes all leading and trailing spaces from a string
+
+                  DEBUGGING
+
+1. B) assignment operator used instead of comaprison operator
+
+2. A) 012
+
+3. A) CBA
+
+4. A) 012Done
+
+5. C) 165
+
+         EASY LEVEL CODING QUESTIONS
+
+1.
+
+n = int(input('Enter the number : '))
+for i in range(1,n+1):
+    print(i)
+
+2. 
+
+n = int(input('Enter the number : '))
+j = 1
+for i in range(n,0,-1):
+    j *= i
+print(f'The factorial of {n}! is {j}')
+
+         HARD LEVEL CODING QUESTIONS
+
+1.
+
+n = int(input('Enter the limit for how many times does limit work : '))
+i = 0
+a = 0
+b = 1
+while i <= n :
+    c = a + b
+    print(c)
+    a = b
+    b = c
+    i = i + 1
+
+2. 
+
+n = input('Enter the word to countr no. of vowels : ')
+count = 0
+for i in n:
+    if i in 'aeiouAEIOU':
+        count += 1
+print(count)
