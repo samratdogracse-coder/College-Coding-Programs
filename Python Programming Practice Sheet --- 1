@@ -190,6 +190,39 @@ else:
 
 # 11. factorial of a number 
 
+n = int(input('Enter the number : '))
+product = 1
+for i in range(n,0,-1):
+    product *= i
+print(f'The factorial of {n}! is {product}')
+
+# 12. sum of digits
+
+n = int(input('Enter the number : '))
+sum = 0
+while n > 0:
+    sum = sum + n % 10
+    n = n // 10
+print(sum)
+
+# 13. Armstrong numbers
+
+n = int(input('Enter the number : '))
+power = len(str(n))
+sum = 0
+
+for i in str(n):
+    sum = sum + int(i)**power
+
+if sum == n:
+    print('Armstrong number')
+else:
+    print('Not an Armstrong number')    
+
+# 14. Multiplication table 
+
+
+
 
 
 
