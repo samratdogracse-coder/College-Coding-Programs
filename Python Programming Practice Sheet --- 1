@@ -47,3 +47,73 @@ Devansh wants a program that tells whether a given number is Positive, Negative,
    A user is allowed a maximum of three password attempts. Take a password as input repeatedly. If the user enters "python123", print "Access Granted" and stop immediately using break. If all three attempts are wrong, print "Access Denied".
  * Sum Positive Inputs Only (Advanced)
    Repeatedly read integers from the user. Stop when the user enters 0. Ignore negative numbers using continue and add only positive numbers to a running total. Display the final sum.
+
+Part B - Solutions 
+
+# 1. Marks 
+
+marks1 = int(input('Enter the marks of physics : '))
+marks2 = int(input('Enter the marks of maths : '))
+marks3 = int(input('Enter the marks of english : '))
+
+total = marks1 + marks2 + marks3
+average = total / 3
+
+print(f'Total = {total} , Average = {average}')
+
+# 2. Simple interset
+
+principal = int(input('Enter the principal amount : '))
+rate = int(input('Enter the rate of interset : '))
+time = int(input('Enter the time period : '))#
+
+simple_interset = (principal*rate*time)/100
+
+print(f'Simple interset = {simple_interset}')
+
+# 3. sum of first n natural numbers
+
+n = int(input('Enter the postive integer N : '))
+sum = 0
+for i in range(1,n+1):
+    sum = sum + i
+print(f'Sum of first N natural numbers : {sum}')
+
+# 4. postive , negative or zero
+
+n  = int(input('Enter a number : '))
+
+if n > 0:
+    print('Postive')
+elif n < 0:
+    print('Negative')
+else:
+    print('Zero')
+
+# 5. Even or odd
+
+n = int(input('Enter a number : '))
+
+if n % 2 == 0:
+    print(f'{n} is even')
+else:
+    print(f'{n} is odd')
+
+# 6. largest among three numbers 
+
+n1 = int(input('Enter the first number : '))
+n2 = int(input('Enter the second number : '))
+n3 = int(input('Enter the third number : '))
+
+if n1 > n2 and n1 > n3:
+    print(f'{n1} is greater than {n2} and {n3}')
+    
+elif n2 > n1 and n2 > n3:
+    print(f'{n2} is greater than {n1} and {n3}')
+
+else:
+    print(f'{n3} is greater than {n1} and {n2}')
+
+# 7. leap year
+
+
