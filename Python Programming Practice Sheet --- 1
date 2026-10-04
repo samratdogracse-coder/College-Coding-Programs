@@ -1,1 +1,49 @@
-hello
+PART A – PRACTICE QUESTIONS
+
+
+1. Marks - Total and Average (Basic)
+Write a Python program that takes the marks of three subjects as input and calculates the total marks and average marks. Assume each subject is out of 100.
+
+2. Simple Interest (Basic)
+Neha deposited some money in a bank. Write a program that reads the principal amount, rate of interest, and time period, and calculates the simple interest using: \text{SI} = (\text{Principal} \times \text{Rate} \times \text{Time}) / 100.
+
+3.Sum of First N Natural Numbers (Basic)
+Write a Python program to input a positive integer N and find the sum of the first N natural numbers. Use a loop rather than the direct formula.
+
+4. Positive, Negative or Zero (Basic)
+Devansh wants a program that tells whether a given number is Positive, Negative, or Zero. Read a number and display the appropriate result using if-elif-else.
+
+ * Even or Odd (Basic)
+   Write a Python program that takes an integer N as input and checks whether the given number is even or odd.
+ * Largest Among Three Numbers (Basic)
+   Ishita wants a program that finds the largest among three given numbers using if-elif-else statements.
+ * Leap Year (Intermediate)
+   Meera is learning decision structures. Read a year and determine whether it is a leap year. A year is a leap year if it is divisible by 4 and not divisible by 100; OR it is divisible by 400.
+ * Semester Result (Intermediate)
+   Arjun appeared for his semester exam in three subjects. Read the marks, calculate total, average and percentage, and display Pass only if he scores at least 40 marks in each subject; otherwise display Fail.
+ * Triangle Classification Using Nested If (Intermediate)
+   Rohan wants to determine the type of triangle formed by three side lengths. First check whether the sides form a valid triangle. If valid, classify it as Equilateral, Isosceles, or Scalene using nested if statements.
+ * Largest Among Three Using Nested If (Intermediate)
+   Write a Python program to find the largest among three numbers using nested if statements only.
+ * Factorial of a Number (Intermediate)
+   Write a Python program to input a non-negative integer N and calculate N! using a loop. Remember that 0! = 1.
+ * Sum of Digits (Intermediate)
+   Write a Python program to input a positive integer and find the sum of its digits using a while loop.
+   Example: 572 \to 5 + 7 + 2 = 14.
+ * Armstrong Number (Intermediate)
+   Simran wants to check whether a positive integer is an Armstrong number. Write a program that works for any number of digits.
+   Example: 153 = 1^3 + 5^3 + 3^3.
+ * Multiplication Table (Intermediate)
+   Write a Python program to input a number and print its multiplication table from 1 to 10 using a for loop.
+ * Reverse a Number and Check Palindrome (Intermediate)
+   Write a Python program to reverse a positive integer using a while loop. Then check whether the original number is a palindrome. Do not use string slicing.
+ * Count Positive, Negative and Zero Values (Intermediate)
+   Read 10 numbers using a loop and count how many are positive, how many are negative, and how many are zero. Display all three counts.
+ * First Number Divisible by 7 (Intermediate)
+   Using a for loop from 20 to 100, find and print the first number that is divisible by 7. Stop the loop immediately after finding it by using break.
+ * Skip Multiples of 3 (Intermediate)
+   Print the numbers from 1 to 30, but do not print numbers that are divisible by 3. Use continue.
+ * Limited Login Attempts (Advanced)
+   A user is allowed a maximum of three password attempts. Take a password as input repeatedly. If the user enters "python123", print "Access Granted" and stop immediately using break. If all three attempts are wrong, print "Access Denied".
+ * Sum Positive Inputs Only (Advanced)
+   Repeatedly read integers from the user. Stop when the user enters 0. Ignore negative numbers using continue and add only positive numbers to a running total. Display the final sum.
