@@ -1,0 +1,88 @@
+#1. 
+
+name = input('Enter the name : ')
+age = int(input('Enter the age : '))
+marks = int(input('Enter the marks : '))
+
+print(f'Student Name : {name}')
+print(f'Age of student : {age}')
+print(f'Marks scored by {name} : {marks}')
+
+#2.
+
+num1 = int(input('Enter the first number : '))
+num2 = int(input('Enter the second number : '))
+print(f'Sum : {num1+num2}')
+print(f'Product : {num1*num2}')
+print(f'Difference : {num1-num2}')
+print(f'Quotient : {num1/num2}')
+print(f'Floor division : {num1//num2}')
+print(f'Remainder : {num1%num2}')
+
+#3.
+
+l = float(input('Enter the length : '))
+b = float(input('Enter the breadth : '))
+print(f'Area : {l*b}')
+print(f'Perimeter : {2*(l+b)}')
+
+#4.
+
+r = float(input('Enter the radius : '))
+print(f'Area : {3.14*r**2}')
+print(f'Circumference : {2*3.14*r}')
+
+#5.
+
+m1 = int(input('Enter the maths marks : '))
+m2 = int(input('Enter the english marks : '))
+m3 = int(input('Enter the bio marks : '))
+
+print(f'Total Marks : {m1+m2+m3}')
+print(f'Average Marks : {(m1+m2+m3)/3}')
+
+#6.
+
+c = float(input('Enter the temperature in celcius : '))
+f = (9/5)*c+32
+print(f'Fahrenheit : {f}')
+
+#7.
+
+p = int(input('Enter the principal amount : '))
+r = int(input('Enter the rate of interset : '))
+t = int(input('Enter the time: '))
+SI = (p*r*t)/100
+total = p+SI
+print(f'Total amount : {total}')
+print(f'Simple interset : {SI}')
+
+#8.
+
+n = int(input('Enter a two digit number : '))
+tens_digit = n // 10
+ones_digit = n % 10
+print(f'Tens digit : {tens_digit}')
+print(f'Ones digit : {ones_digit}')
+
+#9. 
+
+price = int(input('Enter the price : '))
+quantity = int(input('Enter the quantity : '))
+discount = (price*quantity)/10
+total = price*quantity - discount
+print(f'Total after discount : {total}')
+print(f'Total Discount : {discount}')
+
+#10. 
+
+age = int(input('Enter the age : '))
+marks = int(input('Enter the marks : '))
+
+a = age >=18
+b = marks >= 40
+c = a and b
+print(a,b,c)
+
+#11.
+
