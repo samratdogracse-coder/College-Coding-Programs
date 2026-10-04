@@ -120,3 +120,49 @@ for ch in n:
         count += 1
 print(count)
 
+#15.
+
+print('Hello,Python!')
+
+#16.
+
+name = input('Enter the name : ')
+roll_no = int(input('Enter the roll number : '))
+course = input('Enter the course : ')
+semester = int(input('Enter the semester : '))
+college = input('Enter the college name : ')
+print(f'Name = {name}')
+print(f'Roll Number = {roll_no}')
+print(f'Course Name = {course}')
+print(f'Semester = {semester}')
+print(f'College name = {college}')
+
+#17.
+
+print('Welcome to Python')
+print('Semester 1')
+print('CSE Department')
+
+#18. 
+
+name = 'samrat'
+print(f'My Name is {name}')
+
+#19.
+
+a = 10
+b = 20
+c = 30
+print(a,b,c)
+
+#20.
+
+subject = 'Python'
+semester = 1
+print(f'Subject : {subject}')
+print(f'Semester : {semester}')
+
+#21.
+
+
+
