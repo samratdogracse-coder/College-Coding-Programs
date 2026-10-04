@@ -116,4 +116,81 @@ else:
 
 # 7. leap year
 
+year = int(input('Enter the year : '))
+
+if year % 4 == 0:
+    print(f'{year} is leap year')
+elif year % 100 != 0:
+    print(f'{year} is not leap year')
+elif year % 400 == 0:
+    print(f'{year} is leap year')
+else:
+    print(f'{year} is not leap year')
+
+# 8. semester result
+
+m1 = int(input('Enter the maths marks : '))
+m2 = int(input('Enter the english marks : '))
+m3 = int(input('Enter the bio marks : '))
+
+total = m1+m2+m3
+print(f'{total} is total')
+average = total / 3
+print(f'{average} is average')
+
+percentage = (total/300)*100
+print(f'{percentage} is percentage')
+
+if m1 >= 40 and m2 >= 40 and m3 >= 40:
+    print('Pass')
+else:
+    print('Fail')    
+
+# 9. traingle classification using nested if
+
+a = int(input('Enter the first side dimensions : '))
+b = int(input('Enter the second side dimensions : '))
+c = int(input('Enter the third side dimensions : '))
+
+if a + b > c and  b + c > a  and c + a > b :
+    if a == b:
+        if b == c:
+            print('Equilateral triangle')
+        else:
+            print('Isosceles triangle')
+    
+    elif a == c:
+        print('Isoscles triangle')
+        
+    else:
+        if b == c:
+            print('Isosceles triangle')
+        else:
+            print('scalene traingle')
+else:
+    print('Invalid triangle')
+
+# 10. largest among three using nested if 
+
+n1 = int(input('Enter the first number : '))
+n2 = int(input('Enter the second number : '))
+n3 = int(input('Enter the third number : '))
+
+if n1 > n2:
+    if n1 > n3:
+        print(f'{n1} is greater')
+    else:
+        print(f'{n3} is greater')
+
+else:
+    if n2 > n3:
+        print(f'{n2} is greater')
+    else:
+        print(f'{n3} is greater')
+
+# 11. factorial of a number 
+
+
+
+
 
