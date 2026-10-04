@@ -64,7 +64,7 @@ Example: 572 \to 5 + 7 + 2 = 14.
    Repeatedly read integers from the user. Stop when the user enters 0. Ignore negative numbers using continue and add only positive numbers to a running total. Display the final sum.
 
 -------------------------------------------------
---------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 Part B - Solutions 
 
