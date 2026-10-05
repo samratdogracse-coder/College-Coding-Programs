@@ -297,6 +297,40 @@ else:
 
 #32.
 
+n = int(input())
+product = 0
+for i in range(1,11):
+    product = n*i
+    print(f'{n} x {i} = {product}')
+   
+#33.
+
+n = int(input())
+temp = n
+rev = 0
+while n > 0:
+    rev = rev*10 + n%10
+    n = n//10
+if temp == rev:
+    print('Palidrome number')
+else:
+    print('Not a palidrome number')
+
+#34.
+
+for i in range(20,101):
+    if i % 7 == 0:
+        break
+print(i)
+
+#35.
+
+for i in range(1,31):
+    if i % 3 == 0:
+        continue
+    print(i,end=' ')
+
+#36.
 
 
 
