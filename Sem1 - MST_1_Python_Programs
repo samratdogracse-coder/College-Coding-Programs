@@ -219,4 +219,84 @@ elif n2 > n1 and n2 > n3:
 else:
     print(f'{n3} is greater')
 
+#26.
+
+year = int(input())
+if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+    print(f'{year} is leap year')
+else:
+    print(f'{year} is not a leap year')
+
+#27.
+
+m1 = int(input('Enter the marks marks : '))
+m2 = int(input('Enter the bio marks : '))
+m3 = int(input('Enter the CSE marks : '))
+
+total = m1+m2+m3
+average = total / 3
+percentage = (total/300)*100
+
+print(f'Total = {total},Average = {average},Percentage = {percentage}')
+
+if m1 >=40 and m2 >= 40 and m3 >= 40:
+    print('Pass')
+else:
+    print('Fail')
+
+#28.
+
+a = int(input())
+b = int(input())
+c = int(input())
+
+if a + b > c and b+c > a and a+c > b:
+    if a == b:
+        if b == c:
+            print('Equilateral Triangle')
+        else:
+            print('Isoscles Triangle')
+         
+    else:
+        if b == c or a == c:
+            print('Isoscles Triangle')
+        else:
+            print('Scalene Triangle')
+
+else:
+    print('Not a valid triangle')
+
+#29.
+
+n = int(input())
+fact = 1
+for i in range(n,0,-1):
+    fact *= i
+print(f'The factorial of {n}! is {fact}')
+
+#30.
+
+n =int(input())
+sum = 0
+while n > 0:
+    sum = sum + n % 10
+    n = n // 10
+print(sum)
+
+#31.
+
+n = int(input())
+power = len(str(n))
+sum = 0
+for i in str(n):
+    sum = sum + int(i)**power
+if sum == n:
+    print('Armstrong Number')
+else:
+    print('Not an armstrong number')
+
+#32.
+
+
+
 
