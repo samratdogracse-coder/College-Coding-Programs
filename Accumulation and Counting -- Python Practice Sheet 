@@ -182,5 +182,80 @@ print(f'Sum of numbers divisble by 5 : {sum}')
 
 #12.
 
+sum = 0
+for i in range(5):
+    marks = int(input('Enter the marks : '))
+    sum += marks 
+print(f'Total marks of 5 subjects : {sum}')
+
+#13.
+
+sum = 0
+for i in range(5):
+    n = int(input('Enter the number : ')
+    sum += i
+    average = sum / 5
+print(f'Average of five numbers : {average}')
+
+#14.
+
+n = int(input('Enter the  number : '))
+sum = 0
+while n > 0:
+    sum = sum + n % 10
+    n = n//10
+print(f'Sum of digits of a number : {sum}')
+
+#15.
+
+n = int(input('Enter the number : '))
+rev = 0
+while n > 0:
+    rev = rev*10 + n%10
+    n = n//10
+print(f'reversed number : {rev}')
+
+#16.
+
+sum = 0
+n =int(input('Enter the number and zero if want to stop : '))
+while n !=0:
+    sum += n
+    n = int(input())
+print(f'Sum until zero is entered : {sum}')
+
+#17.
+
+bill = 0
+for i in range(5):
+    n = int(input('Enter the price : '))
+    bill += n
+print(f'Total bill amount : {bill}')
+
+#18.
+
+n = int(input())
+fact = 1
+for i in range(n,1,-1):
+    fact += i
+print(f'Sum of factorial series : {fact}')
+
+#19.
+
+sum = 0
+for i in range(1,101):
+    if i % 3 == 0 or i % 5 == 0:
+        sum +=i
+print(f'Sum of multiples of 3 or 5 : {sum}')
+
+#20.
+
+n = int(input('Enter the number of days : '))
+sum = 0
+for i in range(1,n+1):
+    sum += i*10
+print(f'Total Savings : {sum}')
+    
+
 
 
