@@ -1,0 +1,89 @@
+Part A: Accumulation Programs – 20 Questions
+
+1\. Find the sum of numbers from 1 to 5 using a loop.
+
+2\. Accept n from the user and find the sum of numbers from 1 to n.
+
+3\. Find the sum of the first 10 even numbers: 2, 4, 6, ..., 20.
+
+4\. Find the sum of all odd numbers between 1 and 20.
+
+5\. Accept 5 numbers from the user and find their total.
+
+6\. Find the sum of all multiples of 3 from 1 to 30.
+
+7\. Find the sum of squares of numbers from 1 to 5.
+
+8\. Find the sum of cubes of numbers from 1 to 5.
+
+9\. Accept n and find the product 1 × 2 × 3 × ... × n.
+
+10\. Accept 6 integers and add only the positive numbers.
+
+11\. Find the sum of numbers from 1 to 100 that are divisible by 5.
+
+12\. Accept marks of 5 subjects and calculate total marks.
+
+13\. Accept 5 numbers, find their total using accumulation, and then calculate the average.
+
+14\. Accept a positive integer and find the sum of its digits using a while loop.
+
+15\. Accept an integer and build its reverse digit by digit.
+
+16\. Keep accepting integers and add them. Stop when the user enters 0.
+
+17\. Accept prices of 5 items and calculate the total bill.
+
+18\. Find 1! + 2! + 3! + ... + n! using loops.
+
+19\. Find the sum of numbers from 1 to 100 that are divisible by 3 or 5.
+
+20\. A student saves Rs. 10 on day 1, Rs. 20 on day 2, Rs. 30 on day 3, and so on. Find total savings after n days.
+
+
+
+Part B: Counting Programs – 20 Questions
+
+
+
+1\. Use a counter variable to count how many numbers are processed from 1 to 10.
+
+2\. Count how many even numbers are present between 1 and 20.
+
+3\. Count how many odd numbers are present between 1 and 20.
+
+4\. Count the multiples of 5 between 1 and 100.
+
+5\. Accept 5 integers and count how many are positive.
+
+6\. Accept 6 integers and count how many are negative.
+
+7\. Accept 8 integers and count how many times 0 is entered.
+
+8\. Accept 10 numbers and count how many are greater than 50.
+
+9\. Accept marks of 10 students and count how many scored 40 or more.
+
+10\. Accept a word and count the number of vowels in it.
+
+11\. Accept a positive integer and count its digits using a while loop.
+
+12\. Accept an integer and count how many of its digits are even.
+
+13\. Accept a number and a digit. Count how many times that digit occurs in the number.
+
+14\. Accept a positive integer n and count how many divisors it has.
+
+15\. Accept a number and count its divisors. If it has exactly 2 divisors, print Prime; otherwise print Not Prime.
+
+16\. Accept a string and count how many uppercase English letters it contains.
+
+17\. Accept a sentence and count the number of spaces.
+
+18\. Count numbers between 1 and 100 that are divisible by both 3 and 5.
+
+19\. Keep accepting integers until 0 is entered. Count how many non-zero numbers were entered.
+
+20\. Accept two integers, start and end. Count how many prime numbers are present in that range.
+
+___________________________________________________________________________________________________________________________________________________
