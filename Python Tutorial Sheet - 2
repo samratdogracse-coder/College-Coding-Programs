@@ -1,0 +1,46 @@
+PYTHON PROGRAMMING – ALL 22 QUESTIONS 
+
+Q1 Smart Parking Fee Calculator
+Q2 Digital Water Consumption Calculator
+Q3 Electricity Load Analysis
+Q4 Digital Number Analysis (Harshad Number)
+Q5 Alternating Series Evaluation
+Q6 Digital Access Code Generator
+Q7 Correct the Programming Errors
+Q8 Trace the Execution
+Q9 Gear Ratio Simplification
+Q10 Modular Exponent Calculator
+Q11 Number Property Classifier
+Q12 Robot Movement Paths
+Q13 Recursive Digit Sum
+Q14 Recursive Binary Search
+Q15 Text Message Analyzer
+Q16 Password Security Validator
+Q17 Student Performance Ranking
+Q18 Product Inventory Search
+Q19 Matrix Diagonal Difference
+Q20 Matrix Row and Column Analysis
+Q21 Remove Consecutive Duplicate Elements
+Q22 Merge and Sort Two Data Streams
+
+---------------------------------------------
+
+ANSWERS OF THE ABOVE QUESTIONS 
+
+
+#!. 
+n = int(input("Enter the parking hours : "))
+fee = 0
+if n <= 2:
+    fee = 30
+else:
+    fee = 30 + (n-2)*15
+
+if fee > 120:
+    fee = 120
+
+print("Parking Fee:" , fee)
+
+
+#2.
+
